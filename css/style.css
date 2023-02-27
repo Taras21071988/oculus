@@ -631,6 +631,10 @@ body {
   .menu{
     display: none;
   }
+  .menu.menu--active{
+    display: flex;
+    position: absolute;
+  }
 }
   @media (max-width:768px) {
     .title {
