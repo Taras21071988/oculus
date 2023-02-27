@@ -627,8 +627,18 @@ body {
   }
 
   @media (max-width:568px) {
-
-
+    .equipment{
+      text-align: center;
+    }
+    .equipment__box{
+      display: block;
+    }
+    .equipment__box-img{
+      width: 100%;
+    }
+    .equipment__box-text{
+      margin-bottom: 10px;
+    }
     .features__titles {
       display: block;
     }
@@ -680,5 +690,9 @@ body {
 
     .game__descr-title {
       font-size: 26px;
+    }
+    .equipment__box-title{
+      font-size: 28px;
+      margin-bottom: 10px;
     }
   }
